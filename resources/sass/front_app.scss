@@ -1,0 +1,58 @@
+// Fonts
+// @import url("https://fonts.googleapis.com/css?family=Nunito");
+$fa-font-path: "../webfonts";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    font-family: "Poppins" !important;
+}
+.navbar-area .main-nav .navbar .navbar-nav .nav-item .router-link-exact-active {
+    color: #e67e22 !important;
+}
+
+.card__normal {
+    padding: 24px;
+}
+.order__form > h4 {
+    font-size: 15px;
+    margin-top: 16px;
+    font-weight: 600;
+}
+.order_cta {
+    padding: 24px;
+}
+img.img-fluid.rounded-circle.d-inline {
+    width: 55px;
+}
+.custom__text_holder {
+    text-align: center;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+h5.custom__text_details {
+    font-weight: 500;
+    font-family: "Poppins";
+    font-size: 15px;
+}
+.custom__text_holder > p {
+    font-weight: 500;
+    color: #ffffff;
+}
+.card.card__paddig {
+    box-shadow: 0 18px 37px 6px rgba(0, 0, 0, 0.09) !important;
+}
+.bg_image_p_holder > img {
+    width: 500px;
+    float: right;
+}
+.custom_bg_designer {
+    background-image: url("/assets/images/bg/designer_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
