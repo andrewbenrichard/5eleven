@@ -1,7 +1,5 @@
 /node_modules
 /public/hot
-/public/storage
-/resources/views/layouts
 /storage/*.key
 /vendor
 .env
@@ -11,4 +9,3 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-resources/views/layouts/front_header.blade.php
