@@ -13,11 +13,11 @@
     @if(strpos($_SERVER['REQUEST_URI'], 'dashboard') !== false)
 
 
-    @include('layouts.back_header')
+    @include('layouts.dev.back_header')
     
   
     @else
-    @include('layouts.front_header')
+    @include('layouts.dev.front_header')
     
       @endif
    
@@ -36,12 +36,12 @@
     @if(strpos($_SERVER['REQUEST_URI'], 'dashboard') !== false)
 
 
-    @include('layouts.back_extras')
+    @include('layouts.dev.back_extras')
     
   
     @else
     
-    @include('layouts.front_extras')
+    @include('layouts.dev.front_extras')
       @endif
    
       
